@@ -12,6 +12,7 @@ from collections import defaultdict
 from formating import format_forms
 from formating import format_question
 from formating import format_evaluation
+from formating import restartform
 
 from ibm_watson import PersonalityInsightsV3
 from ibm_cloud_sdk_core.authenticators import IAMAuthenticator
