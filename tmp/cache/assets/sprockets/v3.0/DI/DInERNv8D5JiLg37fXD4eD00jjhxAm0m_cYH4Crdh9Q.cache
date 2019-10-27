@@ -1,0 +1,27 @@
+{:uriI"™file://app/assets/vendors/iconfonts/flag-icon-css/composer.json?type=application/json&id=28974a6de1e10e6118b7f2a006a41b7355fe38d226d39658cf8ec0316d2ba042:ET:load_pathI"app/assets/vendors;T:filenameI"=app/assets/vendors/iconfonts/flag-icon-css/composer.json;T:	nameI"%iconfonts/flag-icon-css/composer;T:logical_pathI"*iconfonts/flag-icon-css/composer.json;T:content_typeI"application/json;T:sourceI"•{
+  "name": "components/flag-icon-css",
+  "type": "component",
+  "description": "CSS for vector based country flags",
+  "license": "MIT",
+  "authors":[
+    {
+      "name": "Panayiotis Lipiridis (Lipis)",
+      "email": "lipiridis@gmail.com"
+    }
+  ],
+  "extra":{
+    "component":{
+      "name": "flag-icon-css",
+      "files":[
+        "less/**",
+        "css/**",
+        "flags/**"
+      ]
+    }
+  }
+}
+;T:metadata{	:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"@processors:type=application/json&file_type=application/json;TTI"Kfile-digest://app/assets/vendors/iconfonts/flag-icon-css/composer.json;TTF:charsetI"
+utf-8;F:digest"%*ýFÙùÈSc±5¿v†‘ÀMlÃòŽ¬î•™Dw’È­Â:lengthi•:dependencies_digest"%ô¥psô‰´ÈQ7¿N¼š[·ô¬KJ°§OÌM:idI"E28974a6de1e10e6118b7f2a006a41b7355fe38d226d39658cf8ec0316d2ba042;F:
+mtimel+º×¬]

@@ -18,8 +18,11 @@ from formating import restartform
 from ibm_watson import PersonalityInsightsV3
 from ibm_cloud_sdk_core.authenticators import IAMAuthenticator
 
-api_key = '1234-5678'
-authenticator = IAMAuthenticator(api_key)
+from values import *
+
+
+#api_key = '1234-5678'
+authenticator = IAMAuthenticator(os.environ["watson_api_key"])
 question_folder = "./app/"
 index_file = "./static/index.html"
 
@@ -41,7 +44,7 @@ def standarize_input(text : str):
         evaluation_text = " ".join([text for _ in range(n)])
     else:
         evaluation_text = text
-    print(evaluation_text)
+    #print(evaluation_text)
     return evaluation_text
 
 def evaluate_personality(text : str) -> dict:
@@ -89,7 +92,9 @@ class Story(object):
                 answers = cherrypy.session['answers']
                 evaluation_input = standarize_input(" ".join(answers))
                 evaluation = evaluate_personality(evaluation_input)
-                replacements['results'] = format_evaluation(evaluation)
+                #print(evaluation)
+                auxvalues = values(evaluation) 
+                replacements['results'] = format_evaluation(auxvalues)
             except Exception as e:
                 replacements['errors']="We can not evaluate you."
                 replacements['errors'] += str(e)
@@ -98,8 +103,14 @@ class Story(object):
             # Está en pregunta número question_n
             replacements['question'] = format_question(questions, question_n)
             replacements['form'] = format_forms(question_n)
+        
         # Replace
-        print(replacements)
+        #print(replacements)
+        #datau=values(replacements)
+        #print(datau)
+        #dataformat = format_evaluation(datau)
+        #print(dataformat)
+
         string_file = string_file.format(**replacements)
         return string_file
 

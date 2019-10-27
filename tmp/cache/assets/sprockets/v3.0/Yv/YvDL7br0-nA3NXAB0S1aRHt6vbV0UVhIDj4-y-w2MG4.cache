@@ -1,0 +1,33 @@
+{:uriI"™file://app/assets/vendors/iconfonts/simple-line-icon/bower.json?type=application/json&id=0640dd6a79134f437624d0d33e7cf93c3ed7f8ac1cc474db40df57c3b294e051:ET:load_pathI"app/assets/vendors;T:filenameI"=app/assets/vendors/iconfonts/simple-line-icon/bower.json;T:	nameI"%iconfonts/simple-line-icon/bower;T:logical_pathI"*iconfonts/simple-line-icon/bower.json;T:content_typeI"application/json;T:sourceI"5{
+  "name": "simple-line-icons",
+  "version": "2.4.1",
+  "authors": [
+    "Sabbir Ahmed <sabbiirr@gmail.com>"
+  ],
+  "description": "Simple Line Icons Bower Package",
+  "keywords": [
+    "fonts",
+    "simple",
+    "simple-line",
+    "icon"
+  ],
+    "main": [
+        "css/simple-line-icons.css",
+        "scss/simple-line-icons.scss",
+        "less/simple-line-icons.less"
+    ],
+  "license": "MIT",
+  "homepage": "https://github.com/thesabbir/simple-line-icons",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
+;T:metadata{	:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"@processors:type=application/json&file_type=application/json;TTI"Kfile-digest://app/assets/vendors/iconfonts/simple-line-icon/bower.json;TTF:charsetI"
+utf-8;F:digest"%£–Š®ê´=G@®¢°‡í'ùÊ¼<h@ãßz IjL:lengthi5:dependencies_digest"%NA¨OªBŠWÀ]YÀ¿µËém½JÂ©¶65ÙËË:idI"E0640dd6a79134f437624d0d33e7cf93c3ed7f8ac1cc474db40df57c3b294e051;F:
+mtimel+º×¬]

@@ -41,6 +41,7 @@ def format_question(questions : list, index : int):
     title = question[0]
     text  = "\n".join(question[1:])
     html = questiontemplate.format(questiontitle = title, questiontext = text)
+    #print(html)   
     return html
 
 def format_forms(index : int):
@@ -50,6 +51,7 @@ def format_forms(index : int):
         forms += popform
     forms += restartform
     html = questionform.format(forms = forms)
+    #print(html)   
     return html
 
 def format_evaluation(evaluation : dict):
@@ -57,5 +59,6 @@ def format_evaluation(evaluation : dict):
     fake = lambda x: zip(x.keys(), x.values())
     for metric, value in fake(evaluation):
         html += resultstemplate.format(metric=metric, value=value)
+    #print(html)   
     return html
 

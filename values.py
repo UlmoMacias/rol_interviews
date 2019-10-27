@@ -161,24 +161,24 @@ def values(data : dict):
         val = float(data.get(var))
         d = a - val
 
-    print(comm)
-    print(coll)
-    print(a)
-    print(d)
+    #print(comm)
+    #print(coll)
+    #print(a)
+    #print(d)
 
     comm = comm/(len(communicative_list)+len(communicative_neg_list))
     coll = coll/(len(collaborative_list)+len(collaborative_neg_list)+len(collaborative_pos_list))
     a = a/(len(accountability)+len(accountability_neg))
     d = d/(len(drive)+len(drive_neg))
 
-    print(">>>>>>")
+    #print(">>>>>>")
 
-    print(comm)
-    print(coll)
-    print(a)
-    print(d)
+    #print(comm)
+    #print(coll)
+    #print(a)
+    #print(d)
 
-    print(">>>>>>")
+    #print(">>>>>>")
 
 
     list_pre = {'Accountability':'0', 'Drive': '0', 'Collaborative Spirit': '0', 'Communicative for Impact': '0'}
@@ -235,8 +235,7 @@ def values(data : dict):
     else:
         list_pre.update({'Drive': "Outstanding"})        
         
-    print(list_pre)
+    #print(list_pre)
     return list_pre
 
 
-values()
