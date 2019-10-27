@@ -1,11 +1,17 @@
 Installation
-------------
+============
 
-Set up local environment
+Set up virtual environment
 ------------------------
-With python3 and pip installed do:
+In a standard setup the following will work:
 ```
     $ pip install --user pipenv
-    $ pipenv install
-    $ pipenv run python index.py
+    $ python -m pipenv install
+    $ python -m pipenv run python index.py
 ```
+
+Get a Watson API key
+--------------------
+1) Login to ibm.com/cloud
+2) Get the Watson API key
+3) Put the key in index.py

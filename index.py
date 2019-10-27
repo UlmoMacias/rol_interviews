@@ -1,3 +1,4 @@
+"""This module implements the server side logic for the application"""
 import cherrypy
 
 from pathlib import Path
@@ -17,7 +18,8 @@ from formating import restartform
 from ibm_watson import PersonalityInsightsV3
 from ibm_cloud_sdk_core.authenticators import IAMAuthenticator
 
-authenticator = IAMAuthenticator('api-key')
+api_key = '1234-5678'
+authenticator = IAMAuthenticator(api_key)
 question_folder = "./app/"
 index_file = "./static/index.html"
 
