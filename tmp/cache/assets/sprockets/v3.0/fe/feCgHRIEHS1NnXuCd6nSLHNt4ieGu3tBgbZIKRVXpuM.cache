@@ -1,45 +1,0 @@
-{:uriI"ëfile://app/assets/vendors/iconfonts/ti-icons/bower.json?type=application/json&id=2b41b41b5caf3e8ede2d3d89ca4d78ce29f18d036bde4fef0713e0100039cd67:ET:load_pathI"app/assets/vendors;T:filenameI"5app/assets/vendors/iconfonts/ti-icons/bower.json;T:	nameI"iconfonts/ti-icons/bower;T:logical_pathI""iconfonts/ti-icons/bower.json;T:content_typeI"application/json;T:sourceI"∞{
-    "name": "themify-icons",
-    "version": "0.1.2",
-    "homepage": "https://github.com/lykmapipo/themify-icons",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/lykmapipo/themify-icons"
-    },
-    "description": "Pixel-perfect, hand-crafted icons that draw inspiration from Apple iOS 7",
-    "main": [
-        "css/themify-icons.css",
-        "fonts",
-        "ie7/ie7.css",
-        "ie7/ie7.js"
-    ],
-    "keywords": [
-        "icons",
-        "line",
-        "iOS",
-        "pixel",
-        "perfect",
-        "draw"
-    ],
-    "authors": [
-        "lykmapipo <lallyelias87@gmail.com>",
-        "themify.me <http://themify.me/themify-icons>"
-    ],
-    "license": ["MIT", "OFL"],
-    "ignore": [
-        "**/.*",
-        "node_modules",
-        "bower_components",
-        "test",
-        "tests",
-        "SVG",
-        "demo-files",
-        "index.html",
-        "Themify IconFonts 5-23-2014.json"
-    ]
-};T:metadata{	:dependencieso:Set:
-@hash}
-I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"@processors:type=application/json&file_type=application/json;TTI"Cfile-digest://app/assets/vendors/iconfonts/ti-icons/bower.json;TTF:charsetI"
-utf-8;F:digest"%G¯8Y'Dº≠4ç&’ç¯ø7u"˜ë
-ß’ÕM¨:lengthi∞:dependencies_digest"%ñbËcÑPøOöµºE∑!WlÆìG#3·[T°9`:idI"E2b41b41b5caf3e8ede2d3d89ca4d78ce29f18d036bde4fef0713e0100039cd67;F:
-mtimel+∫◊¨]

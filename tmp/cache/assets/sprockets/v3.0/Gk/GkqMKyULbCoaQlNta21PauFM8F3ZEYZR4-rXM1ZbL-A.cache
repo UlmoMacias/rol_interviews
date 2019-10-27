@@ -1,51 +1,0 @@
-{:uriI"àfile://app/assets/vendors/tinymce/package.json?type=application/json&id=bccb2d4eb399766ba7553ba892a07591b7b47b6630bc782126b6843108f5403d:ET:load_pathI"app/assets/vendors;T:filenameI",app/assets/vendors/tinymce/package.json;T:	nameI"tinymce/package;T:logical_pathI"tinymce/package.json;T:content_typeI"application/json;T:sourceI"{
-  "_args": [
-    [
-      "tinymce@4.6.4",
-      "/Applications/XAMPP/xamppfiles/htdocs/star_pro"
-    ]
-  ],
-  "_from": "tinymce@4.6.4",
-  "_id": "tinymce@4.6.4",
-  "_inBundle": false,
-  "_integrity": "sha1-dBVVnyZt4kvqfmnVnkPh5h59EaQ=",
-  "_location": "/tinymce",
-  "_phantomChildren": {},
-  "_requested": {
-    "type": "version",
-    "registry": true,
-    "raw": "tinymce@4.6.4",
-    "name": "tinymce",
-    "escapedName": "tinymce",
-    "rawSpec": "4.6.4",
-    "saveSpec": null,
-    "fetchSpec": "4.6.4"
-  },
-  "_requiredBy": [
-    "/"
-  ],
-  "_resolved": "https://registry.npmjs.org/tinymce/-/tinymce-4.6.4.tgz",
-  "_spec": "4.6.4",
-  "_where": "/Applications/XAMPP/xamppfiles/htdocs/star_pro",
-  "bugs": {
-    "url": "http://www.tinymce.com/develop/bugtracker.php"
-  },
-  "description": "Web based JavaScript HTML WYSIWYG editor control.",
-  "keywords": [
-    "editor",
-    "wysiwyg",
-    "tinymce",
-    "richtext",
-    "javascript",
-    "html"
-  ],
-  "license": "LGPL-2.1",
-  "main": "tinymce.js",
-  "name": "tinymce",
-  "version": "4.6.4"
-}
-;T:metadata{	:dependencieso:Set:
-@hash}
-I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"@processors:type=application/json&file_type=application/json;TTI":file-digest://app/assets/vendors/tinymce/package.json;TTF:charsetI"
-utf-8;F:digest"%´É≠ª’u5Z†ÒøgÅæäõÖ–:J≤g¨ˇ6H:lengthi:dependencies_digest"%?"?˝÷µœS‹æ@‘¥Ω˚πÊÃûT“'ÈfPÓ:idI"Ebccb2d4eb399766ba7553ba892a07591b7b47b6630bc782126b6843108f5403d;F:
-mtimel+∫◊¨]

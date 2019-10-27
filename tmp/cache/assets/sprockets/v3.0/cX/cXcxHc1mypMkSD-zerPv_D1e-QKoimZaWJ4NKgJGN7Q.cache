@@ -1,28 +1,0 @@
-{:uriI"Œfile://app/assets/vendors/iconfonts/mdi/bower.json?type=application/json&id=c5fee7520f4fd0b2cc347f87a509879a842bca571de741721ba3363a57bc3a40:ET:load_pathI"app/assets/vendors;T:filenameI"0app/assets/vendors/iconfonts/mdi/bower.json;T:	nameI"iconfonts/mdi/bower;T:logical_pathI"iconfonts/mdi/bower.json;T:content_typeI"application/json;T:sourceI"{
-    "name": "mdi",
-    "version": "2.2.43",
-    "main": [
-        "scss/materialdesignicons.scss"
-    ],
-    "homepage": "http://materialdesignicons.com",
-    "authors": [
-        { "name": "Austin Andrews", "homepage": "http://templarian.com" },
-        { "name": "Google", "homepage": "http://www.google.com/design" }
-    ],
-    "license": ["OFL-1.1", "MIT"],
-    "ignore": [
-        "*.md",
-        "*.json"
-    ],
-    "keywords": [
-        "material",
-        "design",
-        "icons",
-        "webfont"
-    ]
-}
-;T:metadata{	:dependencieso:Set:
-@hash}
-I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"@processors:type=application/json&file_type=application/json;TTI">file-digest://app/assets/vendors/iconfonts/mdi/bower.json;TTF:charsetI"
-utf-8;F:digest"%–Ñ.ŸŸÿv°¼i©ÌŒÜ4M{méÄEfæ^‚Ôl,}^:lengthi:dependencies_digest"%Œ’xÇGË¼VËºp»å;Ø‹,Q†©9Q›„÷:idI"Ec5fee7520f4fd0b2cc347f87a509879a842bca571de741721ba3363a57bc3a40;F:
-mtimel+º×¬]
