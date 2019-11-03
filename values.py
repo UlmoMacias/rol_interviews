@@ -127,7 +127,7 @@ def values(data : dict):
     a = 0
     for var in communicative_list:
         val = float(data.get(var))
-        comm = comm + (val *5)
+        comm = comm + (val *2)
 
     for var in communicative_neg_list:
         val = float(data.get(var))
@@ -135,7 +135,7 @@ def values(data : dict):
 
     for var in collaborative_list:
         val = float(data.get(var))
-        coll = coll + (val *5)
+        coll = coll + (val *2)
 
     for var in collaborative_neg_list:
         val = float(data.get(var))
@@ -143,11 +143,11 @@ def values(data : dict):
         
     for var in collaborative_pos_list:
         val = float(data.get(var))
-        coll = coll + val*2
+        coll = coll + val*4
 
     for var in accountability:
         val = float(data.get(var))
-        a = a + (val *5)
+        a = a + (val *2)
 
     for var in accountability_neg:
         val = float(data.get(var))
@@ -155,7 +155,7 @@ def values(data : dict):
 
     for var in drive:
         val = float(data.get(var))
-        d = a + (val *5)
+        d = a + (val *2)
 
     for var in drive_neg:
         val = float(data.get(var))
