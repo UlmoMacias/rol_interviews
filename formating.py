@@ -36,6 +36,7 @@ resultstemplate = '\
       <hr/>\
 '
 
+
 def format_question(questions : list, index : int):
     question = [q.strip() for q in questions[index]]
     title = question[0]
