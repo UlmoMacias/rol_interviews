@@ -1,7 +1,7 @@
 """This modules implements functions to transform to HTML"""
 
 popform = '<form method="get" action="pop"><button class="button" type="submit">Back</button></form>'
-putform = '<form method="get" action="put"><input type="text" id="toCount" value="" required name="answer" /><button class="button" type="submit">Speak</button></form>'
+putform = '<form method="get" action="put"><input minlength="20" type="text" id="toCount" value="" required name="answer" /><button class="button" type="submit">Speak</button></form>'
 restartform = '<form method="get" action="restart"><button class="button" type="submit">Restart</button></form>'
 
 questionform = '\
