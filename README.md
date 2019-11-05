@@ -15,3 +15,10 @@ Get a Watson API key
 1) Login to ibm.com/cloud
 2) Get the Watson API key
 3) Put the key in index.py
+
+Functionality docs
+==================
+
+Watson Models
+---------------------
+doc/WatsonModels.pdf
